@@ -130,6 +130,39 @@ h3 {
   color: #ffff;
 }
 
+.window {
+  border: 5px solid #043a18;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem;
+  background-color: #6A994E;
+  border-radius: 1rem;
+}
+
+.window .form{
+  margin: 2rem;
+}
+
+.button-pop {
+  background-color: #e8ab39;
+  border-radius: 5px;
+  border: 2px solid #c47601;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  padding: 5px;
+}
+.button-pop:hover {
+  background-color: #c47601;
+  border-radius: 5px;
+  border: 2px solid #e8ab39;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  color: white;
+  padding: 5px;
+}
+
 
 /* Ether float */
 @keyframes wobleHorizontal {
